@@ -1,3 +1,2 @@
-# EE 2EI4 Projects
+# Project 1 - DC Power Supply
 
-Course Descriptions: Semiconductor devices & electronic circuits; electrical characteristics, principles of operation, circuit models of diodes, MOSFETs, BJTs, Op-Amps, analysis and design of basic application circuits. 
