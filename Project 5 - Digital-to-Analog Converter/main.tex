@@ -1,3 +1,4 @@
+
 \documentclass[12pt]{article}
 	
 \usepackage[margin=1in]{geometry}		% For setting margins
@@ -22,14 +23,14 @@
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage{fontspec}
-\setmainfont{Times New Roman}
+\setmainfont{Times New Roman} % Use XeLaTex compiler to use this font. 
 
 
 
 \pagestyle{fancy}
 \fancyhead[LO,L]{Mark Le} % replace with your name!
 \fancyhead[CO,C]{}
-\fancyhead[RO,R]{\textbf{ELECENG 2EI4 Project 5 - Digital-to-Analog Converter}}
+\fancyhead[RO,R]{\textbf{ELECENG 2EI4 Project 5 - Digital-to-Analog Converter}} 
 \fancyfoot[LO,L]{}
 \fancyfoot[CO,C]{\textbf{\thepage}}
 \fancyfoot[RO,R]{}
@@ -50,12 +51,12 @@
     {\LARGE\bfseries Project 5 - Digital-to-Analog Converter\par}
     \vspace{2.5cm}
     
-    {\Large \textbf{Mark Le - 400558145}\par}
+    {\Large \textbf{Mark Le - 400558145}\par} % replace with your name and student number
     \vspace{2.5cm}
     
     {\large \textbf{Instructor:} Dr. Yaser M. Haddara\par}
     \vspace{0.5cm}
-    {\large \textbf{Term:} Winter 2026 \par}
+    {\large \textbf{Term:} Winter 2026 \par} % winter 2027/28/29?
     \vspace{0.5cm}
     
     {\large \textbf{Submission Deadline:} Sunday, April 12, 2026\par}
@@ -75,6 +76,8 @@
     \listoftables
 
     \newpage
+
+	% from here, delete everything until before \end{document} and replace it with your own work
     \section{Summary}
 
     For this project, the implementation of a 3-bit digital-to-analog converter will be carried out with a full scale analog output voltage of 5V. The design utilized the functionality of an \textbf{inverting operational amplifier} (op-amp), and using binary-weighted input resistors to convert a 3-bit digital input as voltage into a corresponding analog output voltage. The whole project consists of three main parts: theoretical explanation of how the process of digital-to-analog conversion operates, the experimental result along with quantitative analysis of error that arises. Finally, a short discussion on how the error arises and an alternative design will also be carried out as well. 
